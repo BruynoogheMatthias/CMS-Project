@@ -1,0 +1,42 @@
+.logo, #breadcrum, img {
+  display: none;
+}
+
+header{
+  margin-bottom:50px
+}
+
+
+
+ nav a:focus,nav a:hover {
+  color: #ffebb9;
+}
+/* for navbar */
+.nav {
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo {
+  padding: 0;
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+#Logo {
+  max-width: 10vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav a {
+  vertical-align: middle;
+  font-size: 1.5rem;
+  color: white;
+
+}
+nav li {
+  padding-left: 2vw;
+  padding-right: 2vw;
+  justify-content: center;
+  align-items: center;
+}
