@@ -4,7 +4,7 @@ div input, form label {
 
 :root {
     --main: #3e0101;
-    --sub: #fff3db
+    --sub: #fff3db;
 }
 
 header::after {
@@ -34,7 +34,7 @@ main {
 
 }
 
-article , .frame {
+article , .frame, .contact-form {
     margin-top: 5vh;
     border-bottom: 1px grey solid
 }
@@ -69,7 +69,7 @@ article , .frame {
     flex: auto
 }
 
-article p:first-of-type, .frame {
+article p:first-of-type, .frame, .contact-form {
     display: block
 }
 
@@ -86,9 +86,16 @@ figure img {
 }
 
 figure figcaption {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
     margin-top: 3%;
     height: 10vh
+}
+
+.contact-form input, .contact-form textarea{
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto
 }
 
 form label {
@@ -121,7 +128,7 @@ li {
 
 
 
-    article, .frame {
+    article, .frame ,.contact-form{
         padding-top: 70px;
         padding-left: 3vw;
         padding-right: 2vw;
@@ -137,7 +144,7 @@ html body {
         max-width: 100%
     }
 
-    article, figure, .frame {
+    article, figure, .frame , .contact-form{
         content: normal;
         background: url(../media/Oana_Icon.png) 50% 16px no-repeat;
         background-size: 75px;
