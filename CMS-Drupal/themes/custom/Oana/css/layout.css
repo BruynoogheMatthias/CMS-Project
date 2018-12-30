@@ -262,3 +262,12 @@ article img{
         margin-top: 2vh;
         margin-bottom: 2vh
     }
+
+footer{
+    background-color: var(--main);
+
+}
+
+footer ul {
+    margin-bottom: 0
+}

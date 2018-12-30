@@ -77,9 +77,13 @@
   </main>
 
 
-<footer>
-{{page.secondary_menu}}
-</foorer>
 
+
+
+    {% if page.footer %}
+<footer>
+{{page.footer}}
+</footer>
+    {% endif %}
 
 </div>{# /.layout-container #}
